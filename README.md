@@ -8,6 +8,6 @@ Technologies that have been used:
 + QtDesigner
 
 
-To start the project, you need to download both files and run the file named 'main'.
+To start the project, you need to download both files and run the file named 'task_list'.
 
 **Author: freesik**  
