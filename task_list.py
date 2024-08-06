@@ -64,7 +64,6 @@ class Categories(QDialog, categoriesForm):
             cat_list = QListWidgetItem(i[0])
             self.categoriesList.addItem(cat_list)
 
-
     def addCategory(self):
         text, ok = QInputDialog.getText(self, 'Вы уверены?', 'Категория:')
         if ok and text:
@@ -131,7 +130,6 @@ class Tasks(QWidget, tasksForm):
         for i in result:
             self.selectCategory.addItem(i[1])
             self.filterCategory.addItem(i[1])
-
 
     def taskDetail(self, item):
         title = item.text()
